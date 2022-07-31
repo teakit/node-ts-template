@@ -64,7 +64,6 @@ typings/
 .DS_Store
 
 # typescript compiled code
-lib/
 dist/
 build/
 

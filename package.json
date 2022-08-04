@@ -23,7 +23,7 @@
     "lib"
   ],
   "scripts": {
-    "clean": "rimraf coverage build tmp dist",
+    "clean": "rimraf node_modules dist logs coverage yarn.lock stats.json",
     "compile": "npm run clean && npm run build -- --dts-resolve",
     "prepublishOnly": "npm run compile",
     "prebuild": "npm run lint",

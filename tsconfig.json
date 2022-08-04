@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2022",
     "module": "commonjs",
     "lib": ["ES2022"],
     "moduleResolution": "Node16",
-    "rootDir": "./src",
+    "rootDir": "src",
     "outDir": "dist",
+    "pretty": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
@@ -16,6 +17,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noEmitOnError": false,
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictNullChecks": false,
